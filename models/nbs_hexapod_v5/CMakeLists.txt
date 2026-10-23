@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.8)
+project(nbs_hexapod_description)
+find_package(ament_cmake REQUIRED)
+install(DIRECTORY meshes launch rviz DESTINATION share/${PROJECT_NAME})
+install(FILES nbs_hexapod.urdf nbs_hexapod_ros.urdf README.md DESTINATION share/${PROJECT_NAME})
+ament_package()

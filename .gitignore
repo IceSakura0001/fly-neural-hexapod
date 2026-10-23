@@ -1,0 +1,16 @@
+**/node_modules/
+**/__pycache__/
+*.pyc
+backups/
+**/.runtime/
+**/diagnostics/
+**/runtime/
+*.zip
+*.tar
+*.tar.gz
+.env
+.env.*
+*.pem
+*.key
+Thumbs.db
+.DS_Store

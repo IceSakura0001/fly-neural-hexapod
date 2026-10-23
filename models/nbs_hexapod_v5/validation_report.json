@@ -1,0 +1,331 @@
+{
+  "urdf_valid": true,
+  "links": 25,
+  "continuous_joints": 18,
+  "fixed_joints": 6,
+  "cad_instances": 43,
+  "density_kg_m3": 2700,
+  "total_mass_kg": 107.63477696546451,
+  "zero_pose_max_transform_error": 4.961244396501576e-12,
+  "min_inertia_eigenvalue_kg_m2": 1.4476458947699994e-05,
+  "max_jacobian_error": 3.0064839513788133e-07,
+  "meshes": [
+    {
+      "file": "meshes/body_plate.stl",
+      "triangles": 5660,
+      "watertight": true
+    },
+    {
+      "file": "meshes/body_plate_collision_01.stl",
+      "triangles": 26,
+      "watertight": true
+    },
+    {
+      "file": "meshes/body_plate_collision_02.stl",
+      "triangles": 30,
+      "watertight": true
+    },
+    {
+      "file": "meshes/body_plate_collision_03.stl",
+      "triangles": 16,
+      "watertight": true
+    },
+    {
+      "file": "meshes/body_plate_collision_04.stl",
+      "triangles": 12,
+      "watertight": true
+    },
+    {
+      "file": "meshes/body_plate_collision_06.stl",
+      "triangles": 26,
+      "watertight": true
+    },
+    {
+      "file": "meshes/body_plate_collision_07.stl",
+      "triangles": 14,
+      "watertight": true
+    },
+    {
+      "file": "meshes/body_plate_collision_08.stl",
+      "triangles": 16,
+      "watertight": true
+    },
+    {
+      "file": "meshes/body_plate_collision_09.stl",
+      "triangles": 20,
+      "watertight": true
+    },
+    {
+      "file": "meshes/body_plate_collision_10.stl",
+      "triangles": 32,
+      "watertight": true
+    },
+    {
+      "file": "meshes/body_plate_collision_12.stl",
+      "triangles": 22,
+      "watertight": true
+    },
+    {
+      "file": "meshes/body_plate_collision_13.stl",
+      "triangles": 22,
+      "watertight": true
+    },
+    {
+      "file": "meshes/body_plate_collision_14.stl",
+      "triangles": 18,
+      "watertight": true
+    },
+    {
+      "file": "meshes/body_plate_collision_15.stl",
+      "triangles": 46,
+      "watertight": true
+    },
+    {
+      "file": "meshes/body_plate_collision_16.stl",
+      "triangles": 24,
+      "watertight": true
+    },
+    {
+      "file": "meshes/body_plate_collision_17.stl",
+      "triangles": 34,
+      "watertight": true
+    },
+    {
+      "file": "meshes/body_plate_collision_18.stl",
+      "triangles": 30,
+      "watertight": true
+    },
+    {
+      "file": "meshes/body_plate_collision_19.stl",
+      "triangles": 22,
+      "watertight": true
+    },
+    {
+      "file": "meshes/body_plate_collision_21.stl",
+      "triangles": 34,
+      "watertight": true
+    },
+    {
+      "file": "meshes/body_plate_collision_22.stl",
+      "triangles": 32,
+      "watertight": true
+    },
+    {
+      "file": "meshes/body_plate_collision_23.stl",
+      "triangles": 28,
+      "watertight": true
+    },
+    {
+      "file": "meshes/body_plate_collision_24.stl",
+      "triangles": 40,
+      "watertight": true
+    },
+    {
+      "file": "meshes/body_plate_collision_25.stl",
+      "triangles": 24,
+      "watertight": true
+    },
+    {
+      "file": "meshes/body_plate_collision_26.stl",
+      "triangles": 28,
+      "watertight": true
+    },
+    {
+      "file": "meshes/body_plate_collision_27.stl",
+      "triangles": 36,
+      "watertight": true
+    },
+    {
+      "file": "meshes/body_plate_collision_28.stl",
+      "triangles": 32,
+      "watertight": true
+    },
+    {
+      "file": "meshes/body_plate_collision_29.stl",
+      "triangles": 36,
+      "watertight": true
+    },
+    {
+      "file": "meshes/body_plate_collision_30.stl",
+      "triangles": 30,
+      "watertight": true
+    },
+    {
+      "file": "meshes/body_plate_collision_31.stl",
+      "triangles": 14,
+      "watertight": true
+    },
+    {
+      "file": "meshes/calf.stl",
+      "triangles": 1070,
+      "watertight": true
+    },
+    {
+      "file": "meshes/calf_collision_00.stl",
+      "triangles": 18,
+      "watertight": true
+    },
+    {
+      "file": "meshes/calf_collision_01.stl",
+      "triangles": 20,
+      "watertight": true
+    },
+    {
+      "file": "meshes/calf_collision_02.stl",
+      "triangles": 10,
+      "watertight": true
+    },
+    {
+      "file": "meshes/calf_collision_03.stl",
+      "triangles": 12,
+      "watertight": true
+    },
+    {
+      "file": "meshes/calf_collision_04.stl",
+      "triangles": 18,
+      "watertight": true
+    },
+    {
+      "file": "meshes/calf_collision_05.stl",
+      "triangles": 10,
+      "watertight": true
+    },
+    {
+      "file": "meshes/calf_collision_06.stl",
+      "triangles": 16,
+      "watertight": true
+    },
+    {
+      "file": "meshes/calf_collision_07.stl",
+      "triangles": 16,
+      "watertight": true
+    },
+    {
+      "file": "meshes/calf_collision_08.stl",
+      "triangles": 10,
+      "watertight": true
+    },
+    {
+      "file": "meshes/calf_collision_09.stl",
+      "triangles": 20,
+      "watertight": true
+    },
+    {
+      "file": "meshes/calf_collision_10.stl",
+      "triangles": 8,
+      "watertight": true
+    },
+    {
+      "file": "meshes/calf_collision_11.stl",
+      "triangles": 8,
+      "watertight": true
+    },
+    {
+      "file": "meshes/foot.stl",
+      "triangles": 5686,
+      "watertight": true
+    },
+    {
+      "file": "meshes/hip_bracket.stl",
+      "triangles": 840,
+      "watertight": true
+    },
+    {
+      "file": "meshes/hip_bracket_collision_00.stl",
+      "triangles": 8,
+      "watertight": true
+    },
+    {
+      "file": "meshes/hip_bracket_collision_03.stl",
+      "triangles": 20,
+      "watertight": true
+    },
+    {
+      "file": "meshes/hip_bracket_collision_04.stl",
+      "triangles": 22,
+      "watertight": true
+    },
+    {
+      "file": "meshes/hip_bracket_collision_05.stl",
+      "triangles": 34,
+      "watertight": true
+    },
+    {
+      "file": "meshes/hip_bracket_collision_06.stl",
+      "triangles": 20,
+      "watertight": true
+    },
+    {
+      "file": "meshes/hip_bracket_collision_08.stl",
+      "triangles": 32,
+      "watertight": true
+    },
+    {
+      "file": "meshes/hip_bracket_collision_11.stl",
+      "triangles": 26,
+      "watertight": true
+    },
+    {
+      "file": "meshes/motor.stl",
+      "triangles": 420,
+      "watertight": true
+    },
+    {
+      "file": "meshes/thigh_bracket.stl",
+      "triangles": 792,
+      "watertight": true
+    },
+    {
+      "file": "meshes/thigh_bracket_collision_01.stl",
+      "triangles": 14,
+      "watertight": true
+    },
+    {
+      "file": "meshes/thigh_bracket_collision_03.stl",
+      "triangles": 12,
+      "watertight": true
+    },
+    {
+      "file": "meshes/thigh_bracket_collision_05.stl",
+      "triangles": 14,
+      "watertight": true
+    },
+    {
+      "file": "meshes/thigh_bracket_collision_06.stl",
+      "triangles": 34,
+      "watertight": true
+    },
+    {
+      "file": "meshes/thigh_bracket_collision_07.stl",
+      "triangles": 30,
+      "watertight": true
+    },
+    {
+      "file": "meshes/thigh_bracket_collision_08.stl",
+      "triangles": 14,
+      "watertight": true
+    },
+    {
+      "file": "meshes/thigh_bracket_collision_09.stl",
+      "triangles": 30,
+      "watertight": true
+    },
+    {
+      "file": "meshes/thigh_bracket_collision_10.stl",
+      "triangles": 12,
+      "watertight": true
+    },
+    {
+      "file": "meshes/thigh_bracket_collision_11.stl",
+      "triangles": 28,
+      "watertight": true
+    }
+  ],
+  "mujoco_version": "3.16.0",
+  "fixed_base_steps": 2000,
+  "floating_base_steps": 3000,
+  "floating_base_dt_s": 0.001,
+  "engine_warnings": 0,
+  "floating_base_final_contacts": 36,
+  "floating_base_final_max_qvel": 9.776110571861301e-10
+}

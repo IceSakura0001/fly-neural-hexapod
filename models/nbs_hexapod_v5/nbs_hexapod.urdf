@@ -1,0 +1,2023 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="nbs_hexapod_v5">
+  <link name="base_link">
+    <visual name="base_link_visual_body_plate_0">
+      <origin xyz="0 0 0" rpy="-1.57079632679 0 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/body_plate.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="base_link_collision_body_plate_0_0">
+      <origin xyz="0 0 0" rpy="-1.57079632679 0 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/body_plate_collision_01.stl" />
+      </geometry>
+    </collision>
+    <collision name="base_link_collision_body_plate_0_1">
+      <origin xyz="0 0 0" rpy="-1.57079632679 0 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/body_plate_collision_02.stl" />
+      </geometry>
+    </collision>
+    <collision name="base_link_collision_body_plate_0_2">
+      <origin xyz="0 0 0" rpy="-1.57079632679 0 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/body_plate_collision_03.stl" />
+      </geometry>
+    </collision>
+    <collision name="base_link_collision_body_plate_0_3">
+      <origin xyz="0 0 0" rpy="-1.57079632679 0 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/body_plate_collision_04.stl" />
+      </geometry>
+    </collision>
+    <collision name="base_link_collision_body_plate_0_4">
+      <origin xyz="0 0 0" rpy="-1.57079632679 0 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/body_plate_collision_06.stl" />
+      </geometry>
+    </collision>
+    <collision name="base_link_collision_body_plate_0_5">
+      <origin xyz="0 0 0" rpy="-1.57079632679 0 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/body_plate_collision_07.stl" />
+      </geometry>
+    </collision>
+    <collision name="base_link_collision_body_plate_0_6">
+      <origin xyz="0 0 0" rpy="-1.57079632679 0 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/body_plate_collision_08.stl" />
+      </geometry>
+    </collision>
+    <collision name="base_link_collision_body_plate_0_7">
+      <origin xyz="0 0 0" rpy="-1.57079632679 0 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/body_plate_collision_09.stl" />
+      </geometry>
+    </collision>
+    <collision name="base_link_collision_body_plate_0_8">
+      <origin xyz="0 0 0" rpy="-1.57079632679 0 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/body_plate_collision_10.stl" />
+      </geometry>
+    </collision>
+    <collision name="base_link_collision_body_plate_0_9">
+      <origin xyz="0 0 0" rpy="-1.57079632679 0 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/body_plate_collision_12.stl" />
+      </geometry>
+    </collision>
+    <collision name="base_link_collision_body_plate_0_10">
+      <origin xyz="0 0 0" rpy="-1.57079632679 0 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/body_plate_collision_13.stl" />
+      </geometry>
+    </collision>
+    <collision name="base_link_collision_body_plate_0_11">
+      <origin xyz="0 0 0" rpy="-1.57079632679 0 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/body_plate_collision_14.stl" />
+      </geometry>
+    </collision>
+    <collision name="base_link_collision_body_plate_0_12">
+      <origin xyz="0 0 0" rpy="-1.57079632679 0 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/body_plate_collision_15.stl" />
+      </geometry>
+    </collision>
+    <collision name="base_link_collision_body_plate_0_13">
+      <origin xyz="0 0 0" rpy="-1.57079632679 0 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/body_plate_collision_16.stl" />
+      </geometry>
+    </collision>
+    <collision name="base_link_collision_body_plate_0_14">
+      <origin xyz="0 0 0" rpy="-1.57079632679 0 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/body_plate_collision_17.stl" />
+      </geometry>
+    </collision>
+    <collision name="base_link_collision_body_plate_0_15">
+      <origin xyz="0 0 0" rpy="-1.57079632679 0 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/body_plate_collision_18.stl" />
+      </geometry>
+    </collision>
+    <collision name="base_link_collision_body_plate_0_16">
+      <origin xyz="0 0 0" rpy="-1.57079632679 0 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/body_plate_collision_19.stl" />
+      </geometry>
+    </collision>
+    <collision name="base_link_collision_body_plate_0_17">
+      <origin xyz="0 0 0" rpy="-1.57079632679 0 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/body_plate_collision_21.stl" />
+      </geometry>
+    </collision>
+    <collision name="base_link_collision_body_plate_0_18">
+      <origin xyz="0 0 0" rpy="-1.57079632679 0 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/body_plate_collision_22.stl" />
+      </geometry>
+    </collision>
+    <collision name="base_link_collision_body_plate_0_19">
+      <origin xyz="0 0 0" rpy="-1.57079632679 0 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/body_plate_collision_23.stl" />
+      </geometry>
+    </collision>
+    <collision name="base_link_collision_body_plate_0_20">
+      <origin xyz="0 0 0" rpy="-1.57079632679 0 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/body_plate_collision_24.stl" />
+      </geometry>
+    </collision>
+    <collision name="base_link_collision_body_plate_0_21">
+      <origin xyz="0 0 0" rpy="-1.57079632679 0 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/body_plate_collision_25.stl" />
+      </geometry>
+    </collision>
+    <collision name="base_link_collision_body_plate_0_22">
+      <origin xyz="0 0 0" rpy="-1.57079632679 0 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/body_plate_collision_26.stl" />
+      </geometry>
+    </collision>
+    <collision name="base_link_collision_body_plate_0_23">
+      <origin xyz="0 0 0" rpy="-1.57079632679 0 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/body_plate_collision_27.stl" />
+      </geometry>
+    </collision>
+    <collision name="base_link_collision_body_plate_0_24">
+      <origin xyz="0 0 0" rpy="-1.57079632679 0 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/body_plate_collision_28.stl" />
+      </geometry>
+    </collision>
+    <collision name="base_link_collision_body_plate_0_25">
+      <origin xyz="0 0 0" rpy="-1.57079632679 0 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/body_plate_collision_29.stl" />
+      </geometry>
+    </collision>
+    <collision name="base_link_collision_body_plate_0_26">
+      <origin xyz="0 0 0" rpy="-1.57079632679 0 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/body_plate_collision_30.stl" />
+      </geometry>
+    </collision>
+    <collision name="base_link_collision_body_plate_0_27">
+      <origin xyz="0 0 0" rpy="-1.57079632679 0 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/body_plate_collision_31.stl" />
+      </geometry>
+    </collision>
+    <visual name="base_link_visual_motor_1">
+      <origin xyz="0.23 0.23 8.67361737988e-18" rpy="-1.57079632679 0 -0.0136917211707" />
+      <geometry>
+        <mesh filename="meshes/motor.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="base_link_collision_motor_1">
+      <origin xyz="0.23 0.23 -0.03" rpy="-3.14159265359 0 -0.0136917211707" />
+      <geometry>
+        <cylinder radius=".04" length=".06" />
+      </geometry>
+    </collision>
+    <visual name="base_link_visual_motor_2">
+      <origin xyz="0 0.23 1.38777878078e-17" rpy="-1.57079632679 0 -0.0136917211707" />
+      <geometry>
+        <mesh filename="meshes/motor.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="base_link_collision_motor_2">
+      <origin xyz="2.53588114149e-19 0.23 -0.03" rpy="-3.14159265359 0 -0.0136917211707" />
+      <geometry>
+        <cylinder radius=".04" length=".06" />
+      </geometry>
+    </collision>
+    <visual name="base_link_visual_motor_3">
+      <origin xyz="-0.23 0.23 1.38777878078e-17" rpy="-1.57079632679 0 -0.0136917211707" />
+      <geometry>
+        <mesh filename="meshes/motor.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="base_link_collision_motor_3">
+      <origin xyz="-0.23 0.23 -0.03" rpy="-3.14159265359 0 -0.0136917211707" />
+      <geometry>
+        <cylinder radius=".04" length=".06" />
+      </geometry>
+    </collision>
+    <visual name="base_link_visual_motor_4">
+      <origin xyz="-0.23 -0.23 -1.04083408559e-17" rpy="-1.57079632679 0 -0.0136917211707" />
+      <geometry>
+        <mesh filename="meshes/motor.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="base_link_collision_motor_4">
+      <origin xyz="-0.23 -0.23 -0.03" rpy="-3.14159265359 0 -0.0136917211707" />
+      <geometry>
+        <cylinder radius=".04" length=".06" />
+      </geometry>
+    </collision>
+    <visual name="base_link_visual_motor_5">
+      <origin xyz="0 -0.23 -1.38777878078e-17" rpy="-1.57079632679 0 -0.0136917211707" />
+      <geometry>
+        <mesh filename="meshes/motor.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="base_link_collision_motor_5">
+      <origin xyz="2.53588114149e-19 -0.23 -0.03" rpy="-3.14159265359 0 -0.0136917211707" />
+      <geometry>
+        <cylinder radius=".04" length=".06" />
+      </geometry>
+    </collision>
+    <visual name="base_link_visual_motor_6">
+      <origin xyz="0.23 -0.23 -1.38777878078e-17" rpy="-1.57079632679 0 -0.0136917211707" />
+      <geometry>
+        <mesh filename="meshes/motor.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="base_link_collision_motor_6">
+      <origin xyz="0.23 -0.23 -0.03" rpy="-3.14159265359 0 -0.0136917211707" />
+      <geometry>
+        <cylinder radius=".04" length=".06" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="-0.00260956150629 1.60955292692e-17 0.0854568053285" rpy="0 0 0" />
+      <mass value="68.9771057575" />
+      <inertia ixx="0.932692057048" ixy="7.07767178199e-16" ixz="0.0175591812909" iyy="1.57307391936" iyz="1.11022302463e-16" izz="1.90226522873" />
+    </inertial>
+  </link>
+  <link name="lm_hip">
+    <visual name="lm_hip_visual_motor_0">
+      <origin xyz="-0.04 -5.55111512313e-17 0.065" rpy="3.14159265359 0.317659832958 -1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/motor.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="lm_hip_collision_motor_0">
+      <origin xyz="-0.07 -6.13398221105e-17 0.065" rpy="1.57079632679 0.317659832958 -1.57079632679" />
+      <geometry>
+        <cylinder radius=".04" length=".06" />
+      </geometry>
+    </collision>
+    <visual name="lm_hip_visual_hip_bracket_1">
+      <origin xyz="-0.04 0 0.01" rpy="1.57079632679 0 3.33066907388e-16" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="lm_hip_collision_hip_bracket_1_0">
+      <origin xyz="-0.04 0 0.01" rpy="1.57079632679 0 3.33066907388e-16" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_00.stl" />
+      </geometry>
+    </collision>
+    <collision name="lm_hip_collision_hip_bracket_1_1">
+      <origin xyz="-0.04 0 0.01" rpy="1.57079632679 0 3.33066907388e-16" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_03.stl" />
+      </geometry>
+    </collision>
+    <collision name="lm_hip_collision_hip_bracket_1_2">
+      <origin xyz="-0.04 0 0.01" rpy="1.57079632679 0 3.33066907388e-16" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_04.stl" />
+      </geometry>
+    </collision>
+    <collision name="lm_hip_collision_hip_bracket_1_3">
+      <origin xyz="-0.04 0 0.01" rpy="1.57079632679 0 3.33066907388e-16" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_05.stl" />
+      </geometry>
+    </collision>
+    <collision name="lm_hip_collision_hip_bracket_1_4">
+      <origin xyz="-0.04 0 0.01" rpy="1.57079632679 0 3.33066907388e-16" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_06.stl" />
+      </geometry>
+    </collision>
+    <collision name="lm_hip_collision_hip_bracket_1_5">
+      <origin xyz="-0.04 0 0.01" rpy="1.57079632679 0 3.33066907388e-16" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_08.stl" />
+      </geometry>
+    </collision>
+    <collision name="lm_hip_collision_hip_bracket_1_6">
+      <origin xyz="-0.04 0 0.01" rpy="1.57079632679 0 3.33066907388e-16" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_11.stl" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="-0.0572088508809 -4.26464767504e-17 0.0530757428629" rpy="0 0 0" />
+      <mass value="1.12641038264" />
+      <inertia ixx="0.0016045964461" ixy="-6.76928311895e-19" ixz="0.00056030512767" iyy="0.00195118534206" iyz="6.51852117808e-19" izz="0.00150626303758" />
+    </inertial>
+  </link>
+  <link name="lm_thigh">
+    <visual name="lm_thigh_visual_thigh_bracket_0">
+      <origin xyz="0 0 0" rpy="1.57079632679 -4.4408920985e-16 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="lm_thigh_collision_thigh_bracket_0_0">
+      <origin xyz="0 0 0" rpy="1.57079632679 -4.4408920985e-16 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_01.stl" />
+      </geometry>
+    </collision>
+    <collision name="lm_thigh_collision_thigh_bracket_0_1">
+      <origin xyz="0 0 0" rpy="1.57079632679 -4.4408920985e-16 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_03.stl" />
+      </geometry>
+    </collision>
+    <collision name="lm_thigh_collision_thigh_bracket_0_2">
+      <origin xyz="0 0 0" rpy="1.57079632679 -4.4408920985e-16 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_05.stl" />
+      </geometry>
+    </collision>
+    <collision name="lm_thigh_collision_thigh_bracket_0_3">
+      <origin xyz="0 0 0" rpy="1.57079632679 -4.4408920985e-16 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_06.stl" />
+      </geometry>
+    </collision>
+    <collision name="lm_thigh_collision_thigh_bracket_0_4">
+      <origin xyz="0 0 0" rpy="1.57079632679 -4.4408920985e-16 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_07.stl" />
+      </geometry>
+    </collision>
+    <collision name="lm_thigh_collision_thigh_bracket_0_5">
+      <origin xyz="0 0 0" rpy="1.57079632679 -4.4408920985e-16 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_08.stl" />
+      </geometry>
+    </collision>
+    <collision name="lm_thigh_collision_thigh_bracket_0_6">
+      <origin xyz="0 0 0" rpy="1.57079632679 -4.4408920985e-16 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_09.stl" />
+      </geometry>
+    </collision>
+    <collision name="lm_thigh_collision_thigh_bracket_0_7">
+      <origin xyz="0 0 0" rpy="1.57079632679 -4.4408920985e-16 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_10.stl" />
+      </geometry>
+    </collision>
+    <collision name="lm_thigh_collision_thigh_bracket_0_8">
+      <origin xyz="0 0 0" rpy="1.57079632679 -4.4408920985e-16 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_11.stl" />
+      </geometry>
+    </collision>
+    <visual name="lm_thigh_visual_motor_1">
+      <origin xyz="0.1 2.77555756156e-17 4.16333634234e-17" rpy="0 0.609947696167 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/motor.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="lm_thigh_collision_motor_1">
+      <origin xyz="0.07 2.18118450241e-17 3.97487467425e-17" rpy="-1.57079632679 0.609947696167 1.57079632679" />
+      <geometry>
+        <cylinder radius=".04" length=".06" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0.0117933271159 0.0676743414848 4.47245221134e-17" rpy="0 0 0" />
+      <mass value="4.83333130222" />
+      <inertia ixx="0.0354739808822" ixy="0.00385750900364" ixz="2.47050100098e-19" iyy="0.00763111792112" iyz="-1.4304188505e-17" izz="0.0389363463844" />
+    </inertial>
+  </link>
+  <link name="lm_calf">
+    <visual name="lm_calf_visual_calf_0">
+      <origin xyz="0 0 0" rpy="-2.20578270229e-16 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="lm_calf_collision_calf_0_0">
+      <origin xyz="0 0 0" rpy="-2.20578270229e-16 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_00.stl" />
+      </geometry>
+    </collision>
+    <collision name="lm_calf_collision_calf_0_1">
+      <origin xyz="0 0 0" rpy="-2.20578270229e-16 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_01.stl" />
+      </geometry>
+    </collision>
+    <collision name="lm_calf_collision_calf_0_2">
+      <origin xyz="0 0 0" rpy="-2.20578270229e-16 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_02.stl" />
+      </geometry>
+    </collision>
+    <collision name="lm_calf_collision_calf_0_3">
+      <origin xyz="0 0 0" rpy="-2.20578270229e-16 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_03.stl" />
+      </geometry>
+    </collision>
+    <collision name="lm_calf_collision_calf_0_4">
+      <origin xyz="0 0 0" rpy="-2.20578270229e-16 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_04.stl" />
+      </geometry>
+    </collision>
+    <collision name="lm_calf_collision_calf_0_5">
+      <origin xyz="0 0 0" rpy="-2.20578270229e-16 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_05.stl" />
+      </geometry>
+    </collision>
+    <collision name="lm_calf_collision_calf_0_6">
+      <origin xyz="0 0 0" rpy="-2.20578270229e-16 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_06.stl" />
+      </geometry>
+    </collision>
+    <collision name="lm_calf_collision_calf_0_7">
+      <origin xyz="0 0 0" rpy="-2.20578270229e-16 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_07.stl" />
+      </geometry>
+    </collision>
+    <collision name="lm_calf_collision_calf_0_8">
+      <origin xyz="0 0 0" rpy="-2.20578270229e-16 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_08.stl" />
+      </geometry>
+    </collision>
+    <collision name="lm_calf_collision_calf_0_9">
+      <origin xyz="0 0 0" rpy="-2.20578270229e-16 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_09.stl" />
+      </geometry>
+    </collision>
+    <collision name="lm_calf_collision_calf_0_10">
+      <origin xyz="0 0 0" rpy="-2.20578270229e-16 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_10.stl" />
+      </geometry>
+    </collision>
+    <collision name="lm_calf_collision_calf_0_11">
+      <origin xyz="0 0 0" rpy="-2.20578270229e-16 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_11.stl" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="5.7820020823e-10 0.11759363335 -1.71849630061e-09" rpy="0 0 0" />
+      <mass value="0.392725648044" />
+      <inertia ixx="0.0049072872579" ixy="2.48196202677e-11" ixz="-3.43940218774e-11" iyy="4.06006647528e-05" iyz="-5.4973308651e-11" izz="0.00488861559479" />
+    </inertial>
+  </link>
+  <link name="lm_foot">
+    <visual name="lm_foot_visual_foot_0">
+      <origin xyz="0 0 0" rpy="-3.13014556336 -0.261580722794 -0.734718756908" />
+      <geometry>
+        <mesh filename="meshes/foot.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="lm_foot_collision_foot_0">
+      <origin xyz="0 0 0" rpy="-3.13014556336 -0.261580722794 -0.734718756908" />
+      <geometry>
+        <sphere radius=".02" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="-2.42477120083e-19 -1.01911901975e-19 4.16873267633e-19" rpy="0 0 0" />
+      <mass value="0.0904778684234" />
+      <inertia ixx="1.44764589477e-05" ixy="1.67928498102e-21" ixz="-8.62516312641e-22" iyy="1.44764589477e-05" iyz="1.87206915655e-21" izz="1.44764589477e-05" />
+    </inertial>
+  </link>
+  <joint name="lm_hip_joint" type="continuous">
+    <parent link="base_link" />
+    <child link="lm_hip" />
+    <origin xyz="-3.46944695195e-17 0.23 2.25514051877e-17" rpy="0 0 0" />
+    <axis xyz="0 0 1" />
+  </joint>
+  <joint name="lm_thigh_joint" type="continuous">
+    <parent link="lm_hip" />
+    <child link="lm_thigh" />
+    <origin xyz="3.80444635045e-17 0 0.065" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+  </joint>
+  <joint name="lm_calf_joint" type="continuous">
+    <parent link="lm_thigh" />
+    <child link="lm_calf" />
+    <origin xyz="-5.81095435232e-17 0.25 1.38777878078e-17" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+  </joint>
+  <joint name="lm_foot_fixed" type="fixed">
+    <parent link="lm_calf" />
+    <child link="lm_foot" />
+    <origin xyz="-1.12101300465e-16 0.35 5.55111512313e-17" rpy="0 0 0" />
+  </joint>
+  <link name="lr_hip">
+    <visual name="lr_hip_visual_motor_0">
+      <origin xyz="-0.04 -2.77555756156e-17 0.065" rpy="3.14159265359 0.317659832958 -1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/motor.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="lr_hip_collision_motor_0">
+      <origin xyz="-0.07 -2.77555756156e-17 0.065" rpy="1.57079632679 0.317659832958 -1.57079632679" />
+      <geometry>
+        <cylinder radius=".04" length=".06" />
+      </geometry>
+    </collision>
+    <visual name="lr_hip_visual_hip_bracket_1">
+      <origin xyz="-0.04 0 0.01" rpy="1.57079632679 0 0" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="lr_hip_collision_hip_bracket_1_0">
+      <origin xyz="-0.04 0 0.01" rpy="1.57079632679 0 0" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_00.stl" />
+      </geometry>
+    </collision>
+    <collision name="lr_hip_collision_hip_bracket_1_1">
+      <origin xyz="-0.04 0 0.01" rpy="1.57079632679 0 0" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_03.stl" />
+      </geometry>
+    </collision>
+    <collision name="lr_hip_collision_hip_bracket_1_2">
+      <origin xyz="-0.04 0 0.01" rpy="1.57079632679 0 0" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_04.stl" />
+      </geometry>
+    </collision>
+    <collision name="lr_hip_collision_hip_bracket_1_3">
+      <origin xyz="-0.04 0 0.01" rpy="1.57079632679 0 0" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_05.stl" />
+      </geometry>
+    </collision>
+    <collision name="lr_hip_collision_hip_bracket_1_4">
+      <origin xyz="-0.04 0 0.01" rpy="1.57079632679 0 0" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_06.stl" />
+      </geometry>
+    </collision>
+    <collision name="lr_hip_collision_hip_bracket_1_5">
+      <origin xyz="-0.04 0 0.01" rpy="1.57079632679 0 0" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_08.stl" />
+      </geometry>
+    </collision>
+    <collision name="lr_hip_collision_hip_bracket_1_6">
+      <origin xyz="-0.04 0 0.01" rpy="1.57079632679 0 0" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_11.stl" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="-0.0572088508809 -1.92380181861e-17 0.0530757428629" rpy="0 0 0" />
+      <mass value="1.12641038264" />
+      <inertia ixx="0.0016045964461" ixy="-3.20492169224e-19" ixz="0.00056030512767" iyy="0.00195118534206" iyz="2.73486217854e-19" izz="0.00150626303758" />
+    </inertial>
+  </link>
+  <link name="lr_thigh">
+    <visual name="lr_thigh_visual_thigh_bracket_0">
+      <origin xyz="0 0 0" rpy="1.57079632679 -4.4408920985e-16 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="lr_thigh_collision_thigh_bracket_0_0">
+      <origin xyz="0 0 0" rpy="1.57079632679 -4.4408920985e-16 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_01.stl" />
+      </geometry>
+    </collision>
+    <collision name="lr_thigh_collision_thigh_bracket_0_1">
+      <origin xyz="0 0 0" rpy="1.57079632679 -4.4408920985e-16 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_03.stl" />
+      </geometry>
+    </collision>
+    <collision name="lr_thigh_collision_thigh_bracket_0_2">
+      <origin xyz="0 0 0" rpy="1.57079632679 -4.4408920985e-16 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_05.stl" />
+      </geometry>
+    </collision>
+    <collision name="lr_thigh_collision_thigh_bracket_0_3">
+      <origin xyz="0 0 0" rpy="1.57079632679 -4.4408920985e-16 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_06.stl" />
+      </geometry>
+    </collision>
+    <collision name="lr_thigh_collision_thigh_bracket_0_4">
+      <origin xyz="0 0 0" rpy="1.57079632679 -4.4408920985e-16 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_07.stl" />
+      </geometry>
+    </collision>
+    <collision name="lr_thigh_collision_thigh_bracket_0_5">
+      <origin xyz="0 0 0" rpy="1.57079632679 -4.4408920985e-16 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_08.stl" />
+      </geometry>
+    </collision>
+    <collision name="lr_thigh_collision_thigh_bracket_0_6">
+      <origin xyz="0 0 0" rpy="1.57079632679 -4.4408920985e-16 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_09.stl" />
+      </geometry>
+    </collision>
+    <collision name="lr_thigh_collision_thigh_bracket_0_7">
+      <origin xyz="0 0 0" rpy="1.57079632679 -4.4408920985e-16 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_10.stl" />
+      </geometry>
+    </collision>
+    <collision name="lr_thigh_collision_thigh_bracket_0_8">
+      <origin xyz="0 0 0" rpy="1.57079632679 -4.4408920985e-16 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_11.stl" />
+      </geometry>
+    </collision>
+    <visual name="lr_thigh_visual_motor_1">
+      <origin xyz="0.1 0 4.16333634234e-17" rpy="0 0.609947696167 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/motor.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="lr_thigh_collision_motor_1">
+      <origin xyz="0.07 -1.15059712261e-19 3.97487467425e-17" rpy="-1.57079632679 0.609947696167 1.57079632679" />
+      <geometry>
+        <cylinder radius=".04" length=".06" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0.0117933271159 0.0676743414848 4.47245221134e-17" rpy="0 0 0" />
+      <mass value="4.83333130222" />
+      <inertia ixx="0.0354739808822" ixy="0.00385750900364" ixz="2.47050100098e-19" iyy="0.00763111792112" iyz="-1.4304188505e-17" izz="0.0389363463844" />
+    </inertial>
+  </link>
+  <link name="lr_calf">
+    <visual name="lr_calf_visual_calf_0">
+      <origin xyz="0 0 0" rpy="-2.62892409194e-17 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="lr_calf_collision_calf_0_0">
+      <origin xyz="0 0 0" rpy="-2.62892409194e-17 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_00.stl" />
+      </geometry>
+    </collision>
+    <collision name="lr_calf_collision_calf_0_1">
+      <origin xyz="0 0 0" rpy="-2.62892409194e-17 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_01.stl" />
+      </geometry>
+    </collision>
+    <collision name="lr_calf_collision_calf_0_2">
+      <origin xyz="0 0 0" rpy="-2.62892409194e-17 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_02.stl" />
+      </geometry>
+    </collision>
+    <collision name="lr_calf_collision_calf_0_3">
+      <origin xyz="0 0 0" rpy="-2.62892409194e-17 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_03.stl" />
+      </geometry>
+    </collision>
+    <collision name="lr_calf_collision_calf_0_4">
+      <origin xyz="0 0 0" rpy="-2.62892409194e-17 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_04.stl" />
+      </geometry>
+    </collision>
+    <collision name="lr_calf_collision_calf_0_5">
+      <origin xyz="0 0 0" rpy="-2.62892409194e-17 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_05.stl" />
+      </geometry>
+    </collision>
+    <collision name="lr_calf_collision_calf_0_6">
+      <origin xyz="0 0 0" rpy="-2.62892409194e-17 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_06.stl" />
+      </geometry>
+    </collision>
+    <collision name="lr_calf_collision_calf_0_7">
+      <origin xyz="0 0 0" rpy="-2.62892409194e-17 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_07.stl" />
+      </geometry>
+    </collision>
+    <collision name="lr_calf_collision_calf_0_8">
+      <origin xyz="0 0 0" rpy="-2.62892409194e-17 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_08.stl" />
+      </geometry>
+    </collision>
+    <collision name="lr_calf_collision_calf_0_9">
+      <origin xyz="0 0 0" rpy="-2.62892409194e-17 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_09.stl" />
+      </geometry>
+    </collision>
+    <collision name="lr_calf_collision_calf_0_10">
+      <origin xyz="0 0 0" rpy="-2.62892409194e-17 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_10.stl" />
+      </geometry>
+    </collision>
+    <collision name="lr_calf_collision_calf_0_11">
+      <origin xyz="0 0 0" rpy="-2.62892409194e-17 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_11.stl" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="5.78200231077e-10 0.11759363335 -1.71849630061e-09" rpy="0 0 0" />
+      <mass value="0.392725648044" />
+      <inertia ixx="0.0049072872579" ixy="2.48196193222e-11" ixz="-3.43940218774e-11" iyy="4.06006647528e-05" iyz="-5.4973308651e-11" izz="0.00488861559479" />
+    </inertial>
+  </link>
+  <link name="lr_foot">
+    <visual name="lr_foot_visual_foot_0">
+      <origin xyz="0 0 0" rpy="-3.13014556336 -0.261580722794 -0.734718756908" />
+      <geometry>
+        <mesh filename="meshes/foot.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="lr_foot_collision_foot_0">
+      <origin xyz="0 0 0" rpy="-3.13014556336 -0.261580722794 -0.734718756908" />
+      <geometry>
+        <sphere radius=".02" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="-2.42477120083e-19 -1.01911901975e-19 4.16873267633e-19" rpy="0 0 0" />
+      <mass value="0.0904778684234" />
+      <inertia ixx="1.44764589477e-05" ixy="1.44582856672e-21" ixz="-8.62516312641e-22" iyy="1.44764589477e-05" iyz="2.15772504049e-21" izz="1.44764589477e-05" />
+    </inertial>
+  </link>
+  <joint name="lr_hip_joint" type="continuous">
+    <parent link="base_link" />
+    <child link="lr_hip" />
+    <origin xyz="-0.23 0.23 2.08166817117e-17" rpy="0 0 0" />
+    <axis xyz="0 0 1" />
+  </joint>
+  <joint name="lr_thigh_joint" type="continuous">
+    <parent link="lr_hip" />
+    <child link="lr_thigh" />
+    <origin xyz="2.77555756156e-17 0 0.065" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+  </joint>
+  <joint name="lr_calf_joint" type="continuous">
+    <parent link="lr_thigh" />
+    <child link="lr_calf" />
+    <origin xyz="0 0.25 1.38777878078e-17" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+  </joint>
+  <joint name="lr_foot_fixed" type="fixed">
+    <parent link="lr_calf" />
+    <child link="lr_foot" />
+    <origin xyz="-5.55111512313e-17 0.35 5.55111512313e-17" rpy="0 0 0" />
+  </joint>
+  <link name="rr_hip">
+    <visual name="rr_hip_visual_motor_0">
+      <origin xyz="0.04 2.77555756156e-17 0.065" rpy="3.14159265359 0.317659832958 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/motor.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="rr_hip_collision_motor_0">
+      <origin xyz="0.07 2.77555756156e-17 0.065" rpy="1.57079632679 0.317659832958 1.57079632679" />
+      <geometry>
+        <cylinder radius=".04" length=".06" />
+      </geometry>
+    </collision>
+    <visual name="rr_hip_visual_hip_bracket_1">
+      <origin xyz="0.04 0 0.01" rpy="1.57079632679 0 3.14159265359" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="rr_hip_collision_hip_bracket_1_0">
+      <origin xyz="0.04 0 0.01" rpy="1.57079632679 0 3.14159265359" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_00.stl" />
+      </geometry>
+    </collision>
+    <collision name="rr_hip_collision_hip_bracket_1_1">
+      <origin xyz="0.04 0 0.01" rpy="1.57079632679 0 3.14159265359" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_03.stl" />
+      </geometry>
+    </collision>
+    <collision name="rr_hip_collision_hip_bracket_1_2">
+      <origin xyz="0.04 0 0.01" rpy="1.57079632679 0 3.14159265359" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_04.stl" />
+      </geometry>
+    </collision>
+    <collision name="rr_hip_collision_hip_bracket_1_3">
+      <origin xyz="0.04 0 0.01" rpy="1.57079632679 0 3.14159265359" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_05.stl" />
+      </geometry>
+    </collision>
+    <collision name="rr_hip_collision_hip_bracket_1_4">
+      <origin xyz="0.04 0 0.01" rpy="1.57079632679 0 3.14159265359" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_06.stl" />
+      </geometry>
+    </collision>
+    <collision name="rr_hip_collision_hip_bracket_1_5">
+      <origin xyz="0.04 0 0.01" rpy="1.57079632679 0 3.14159265359" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_08.stl" />
+      </geometry>
+    </collision>
+    <collision name="rr_hip_collision_hip_bracket_1_6">
+      <origin xyz="0.04 0 0.01" rpy="1.57079632679 0 3.14159265359" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_11.stl" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0.0572088508809 1.85051550359e-17 0.0530757428629" rpy="0 0 0" />
+      <mass value="1.12641038264" />
+      <inertia ixx="0.0016045964461" ixy="-3.23269976032e-19" ixz="-0.00056030512767" iyy="0.00195118534206" iyz="-3.08633398424e-19" izz="0.00150626303758" />
+    </inertial>
+  </link>
+  <link name="rr_thigh">
+    <visual name="rr_thigh_visual_thigh_bracket_0">
+      <origin xyz="0 0 0" rpy="1.57079632679 0 -1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="rr_thigh_collision_thigh_bracket_0_0">
+      <origin xyz="0 0 0" rpy="1.57079632679 0 -1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_01.stl" />
+      </geometry>
+    </collision>
+    <collision name="rr_thigh_collision_thigh_bracket_0_1">
+      <origin xyz="0 0 0" rpy="1.57079632679 0 -1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_03.stl" />
+      </geometry>
+    </collision>
+    <collision name="rr_thigh_collision_thigh_bracket_0_2">
+      <origin xyz="0 0 0" rpy="1.57079632679 0 -1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_05.stl" />
+      </geometry>
+    </collision>
+    <collision name="rr_thigh_collision_thigh_bracket_0_3">
+      <origin xyz="0 0 0" rpy="1.57079632679 0 -1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_06.stl" />
+      </geometry>
+    </collision>
+    <collision name="rr_thigh_collision_thigh_bracket_0_4">
+      <origin xyz="0 0 0" rpy="1.57079632679 0 -1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_07.stl" />
+      </geometry>
+    </collision>
+    <collision name="rr_thigh_collision_thigh_bracket_0_5">
+      <origin xyz="0 0 0" rpy="1.57079632679 0 -1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_08.stl" />
+      </geometry>
+    </collision>
+    <collision name="rr_thigh_collision_thigh_bracket_0_6">
+      <origin xyz="0 0 0" rpy="1.57079632679 0 -1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_09.stl" />
+      </geometry>
+    </collision>
+    <collision name="rr_thigh_collision_thigh_bracket_0_7">
+      <origin xyz="0 0 0" rpy="1.57079632679 0 -1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_10.stl" />
+      </geometry>
+    </collision>
+    <collision name="rr_thigh_collision_thigh_bracket_0_8">
+      <origin xyz="0 0 0" rpy="1.57079632679 0 -1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_11.stl" />
+      </geometry>
+    </collision>
+    <visual name="rr_thigh_visual_motor_1">
+      <origin xyz="-0.1 -2.77555756156e-17 4.16333634234e-17" rpy="0 0.609947696167 -1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/motor.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="rr_thigh_collision_motor_1">
+      <origin xyz="-0.07 -2.76405159034e-17 4.02559229708e-17" rpy="-1.57079632679 0.609947696167 -1.57079632679" />
+      <geometry>
+        <cylinder radius=".04" length=".06" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="-0.0117933271159 -0.0676743414848 2.11755706814e-17" rpy="0 0 0" />
+      <mass value="4.83333130222" />
+      <inertia ixx="0.0354739808822" ixy="0.00385750900364" ixz="1.12173130833e-18" iyy="0.00763111792112" iyz="5.06139463733e-18" izz="0.0389363463844" />
+    </inertial>
+  </link>
+  <link name="rr_calf">
+    <visual name="rr_calf_visual_calf_0">
+      <origin xyz="0 0 0" rpy="3.14159265359 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="rr_calf_collision_calf_0_0">
+      <origin xyz="0 0 0" rpy="3.14159265359 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_00.stl" />
+      </geometry>
+    </collision>
+    <collision name="rr_calf_collision_calf_0_1">
+      <origin xyz="0 0 0" rpy="3.14159265359 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_01.stl" />
+      </geometry>
+    </collision>
+    <collision name="rr_calf_collision_calf_0_2">
+      <origin xyz="0 0 0" rpy="3.14159265359 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_02.stl" />
+      </geometry>
+    </collision>
+    <collision name="rr_calf_collision_calf_0_3">
+      <origin xyz="0 0 0" rpy="3.14159265359 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_03.stl" />
+      </geometry>
+    </collision>
+    <collision name="rr_calf_collision_calf_0_4">
+      <origin xyz="0 0 0" rpy="3.14159265359 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_04.stl" />
+      </geometry>
+    </collision>
+    <collision name="rr_calf_collision_calf_0_5">
+      <origin xyz="0 0 0" rpy="3.14159265359 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_05.stl" />
+      </geometry>
+    </collision>
+    <collision name="rr_calf_collision_calf_0_6">
+      <origin xyz="0 0 0" rpy="3.14159265359 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_06.stl" />
+      </geometry>
+    </collision>
+    <collision name="rr_calf_collision_calf_0_7">
+      <origin xyz="0 0 0" rpy="3.14159265359 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_07.stl" />
+      </geometry>
+    </collision>
+    <collision name="rr_calf_collision_calf_0_8">
+      <origin xyz="0 0 0" rpy="3.14159265359 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_08.stl" />
+      </geometry>
+    </collision>
+    <collision name="rr_calf_collision_calf_0_9">
+      <origin xyz="0 0 0" rpy="3.14159265359 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_09.stl" />
+      </geometry>
+    </collision>
+    <collision name="rr_calf_collision_calf_0_10">
+      <origin xyz="0 0 0" rpy="3.14159265359 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_10.stl" />
+      </geometry>
+    </collision>
+    <collision name="rr_calf_collision_calf_0_11">
+      <origin xyz="0 0 0" rpy="3.14159265359 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_11.stl" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="-5.78200231077e-10 -0.11759363335 -1.7184963266e-09" rpy="0 0 0" />
+      <mass value="0.392725648044" />
+      <inertia ixx="0.0049072872579" ixy="2.48196193222e-11" ixz="3.43940218777e-11" iyy="4.06006647528e-05" iyz="5.49733075793e-11" izz="0.00488861559479" />
+    </inertial>
+  </link>
+  <link name="rr_foot">
+    <visual name="rr_foot_visual_foot_0">
+      <origin xyz="0 0 0" rpy="-3.13014556336 -0.261580722794 2.40687389668" />
+      <geometry>
+        <mesh filename="meshes/foot.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="rr_foot_collision_foot_0">
+      <origin xyz="0 0 0" rpy="-3.13014556336 -0.261580722794 2.40687389668" />
+      <geometry>
+        <sphere radius=".02" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="2.42477120083e-19 1.01911901975e-19 4.16873267633e-19" rpy="0 0 0" />
+      <mass value="0.0904778684234" />
+      <inertia ixx="1.44764589477e-05" ixy="8.04381021158e-22" ixz="1.47561819706e-21" iyy="1.44764589477e-05" iyz="-2.05324974919e-21" izz="1.44764589477e-05" />
+    </inertial>
+  </link>
+  <joint name="rr_hip_joint" type="continuous">
+    <parent link="base_link" />
+    <child link="rr_hip" />
+    <origin xyz="-0.23 -0.23 -5.20417042793e-18" rpy="0 0 0" />
+    <axis xyz="0 0 1" />
+  </joint>
+  <joint name="rr_thigh_joint" type="continuous">
+    <parent link="rr_hip" />
+    <child link="rr_thigh" />
+    <origin xyz="-2.77555756156e-17 0 0.065" rpy="0 0 0" />
+    <axis xyz="-1 0 0" />
+  </joint>
+  <joint name="rr_calf_joint" type="continuous">
+    <parent link="rr_thigh" />
+    <child link="rr_calf" />
+    <origin xyz="0 -0.25 -4.16333634234e-17" rpy="0 0 0" />
+    <axis xyz="-1 0 0" />
+  </joint>
+  <joint name="rr_foot_fixed" type="fixed">
+    <parent link="rr_calf" />
+    <child link="rr_foot" />
+    <origin xyz="5.55111512313e-17 -0.35 -2.77555756156e-17" rpy="0 0 0" />
+  </joint>
+  <link name="rm_hip">
+    <visual name="rm_hip_visual_motor_0">
+      <origin xyz="0.04 2.77555756156e-17 0.065" rpy="3.14159265359 0.317659832958 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/motor.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="rm_hip_collision_motor_0">
+      <origin xyz="0.07 2.94209101526e-17 0.065" rpy="1.57079632679 0.317659832958 1.57079632679" />
+      <geometry>
+        <cylinder radius=".04" length=".06" />
+      </geometry>
+    </collision>
+    <visual name="rm_hip_visual_hip_bracket_1">
+      <origin xyz="0.04 0 0.01" rpy="1.57079632679 0 3.14159265359" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="rm_hip_collision_hip_bracket_1_0">
+      <origin xyz="0.04 0 0.01" rpy="1.57079632679 0 3.14159265359" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_00.stl" />
+      </geometry>
+    </collision>
+    <collision name="rm_hip_collision_hip_bracket_1_1">
+      <origin xyz="0.04 0 0.01" rpy="1.57079632679 0 3.14159265359" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_03.stl" />
+      </geometry>
+    </collision>
+    <collision name="rm_hip_collision_hip_bracket_1_2">
+      <origin xyz="0.04 0 0.01" rpy="1.57079632679 0 3.14159265359" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_04.stl" />
+      </geometry>
+    </collision>
+    <collision name="rm_hip_collision_hip_bracket_1_3">
+      <origin xyz="0.04 0 0.01" rpy="1.57079632679 0 3.14159265359" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_05.stl" />
+      </geometry>
+    </collision>
+    <collision name="rm_hip_collision_hip_bracket_1_4">
+      <origin xyz="0.04 0 0.01" rpy="1.57079632679 0 3.14159265359" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_06.stl" />
+      </geometry>
+    </collision>
+    <collision name="rm_hip_collision_hip_bracket_1_5">
+      <origin xyz="0.04 0 0.01" rpy="1.57079632679 0 3.14159265359" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_08.stl" />
+      </geometry>
+    </collision>
+    <collision name="rm_hip_collision_hip_bracket_1_6">
+      <origin xyz="0.04 0 0.01" rpy="1.57079632679 0 3.14159265359" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_11.stl" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0.0572088508809 1.94604381597e-17 0.0530757428629" rpy="0 0 0" />
+      <mass value="1.12641038264" />
+      <inertia ixx="0.0016045964461" ixy="-3.4250952465e-19" ixz="-0.00056030512767" iyy="0.00195118534206" iyz="-3.39736581102e-19" izz="0.00150626303758" />
+    </inertial>
+  </link>
+  <link name="rm_thigh">
+    <visual name="rm_thigh_visual_thigh_bracket_0">
+      <origin xyz="0 0 0" rpy="1.57079632679 0 -1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="rm_thigh_collision_thigh_bracket_0_0">
+      <origin xyz="0 0 0" rpy="1.57079632679 0 -1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_01.stl" />
+      </geometry>
+    </collision>
+    <collision name="rm_thigh_collision_thigh_bracket_0_1">
+      <origin xyz="0 0 0" rpy="1.57079632679 0 -1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_03.stl" />
+      </geometry>
+    </collision>
+    <collision name="rm_thigh_collision_thigh_bracket_0_2">
+      <origin xyz="0 0 0" rpy="1.57079632679 0 -1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_05.stl" />
+      </geometry>
+    </collision>
+    <collision name="rm_thigh_collision_thigh_bracket_0_3">
+      <origin xyz="0 0 0" rpy="1.57079632679 0 -1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_06.stl" />
+      </geometry>
+    </collision>
+    <collision name="rm_thigh_collision_thigh_bracket_0_4">
+      <origin xyz="0 0 0" rpy="1.57079632679 0 -1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_07.stl" />
+      </geometry>
+    </collision>
+    <collision name="rm_thigh_collision_thigh_bracket_0_5">
+      <origin xyz="0 0 0" rpy="1.57079632679 0 -1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_08.stl" />
+      </geometry>
+    </collision>
+    <collision name="rm_thigh_collision_thigh_bracket_0_6">
+      <origin xyz="0 0 0" rpy="1.57079632679 0 -1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_09.stl" />
+      </geometry>
+    </collision>
+    <collision name="rm_thigh_collision_thigh_bracket_0_7">
+      <origin xyz="0 0 0" rpy="1.57079632679 0 -1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_10.stl" />
+      </geometry>
+    </collision>
+    <collision name="rm_thigh_collision_thigh_bracket_0_8">
+      <origin xyz="0 0 0" rpy="1.57079632679 0 -1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_11.stl" />
+      </geometry>
+    </collision>
+    <visual name="rm_thigh_visual_motor_1">
+      <origin xyz="-0.1 -2.77555756156e-17 4.16333634234e-17" rpy="-1.11022302463e-16 0.609947696167 -1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/motor.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="rm_thigh_collision_motor_1">
+      <origin xyz="-0.07 -2.59751813664e-17 4.02559229708e-17" rpy="-1.57079632679 0.609947696167 -1.57079632679" />
+      <geometry>
+        <cylinder radius=".04" length=".06" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="-0.0117933271159 -0.0676743414848 2.11755706814e-17" rpy="0 0 0" />
+      <mass value="4.83333130222" />
+      <inertia ixx="0.0354739808822" ixy="0.00385750900364" ixz="1.12173130833e-18" iyy="0.00763111792112" iyz="5.06139463733e-18" izz="0.0389363463844" />
+    </inertial>
+  </link>
+  <link name="rm_calf">
+    <visual name="rm_calf_visual_calf_0">
+      <origin xyz="0 0 0" rpy="3.14159265359 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="rm_calf_collision_calf_0_0">
+      <origin xyz="0 0 0" rpy="3.14159265359 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_00.stl" />
+      </geometry>
+    </collision>
+    <collision name="rm_calf_collision_calf_0_1">
+      <origin xyz="0 0 0" rpy="3.14159265359 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_01.stl" />
+      </geometry>
+    </collision>
+    <collision name="rm_calf_collision_calf_0_2">
+      <origin xyz="0 0 0" rpy="3.14159265359 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_02.stl" />
+      </geometry>
+    </collision>
+    <collision name="rm_calf_collision_calf_0_3">
+      <origin xyz="0 0 0" rpy="3.14159265359 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_03.stl" />
+      </geometry>
+    </collision>
+    <collision name="rm_calf_collision_calf_0_4">
+      <origin xyz="0 0 0" rpy="3.14159265359 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_04.stl" />
+      </geometry>
+    </collision>
+    <collision name="rm_calf_collision_calf_0_5">
+      <origin xyz="0 0 0" rpy="3.14159265359 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_05.stl" />
+      </geometry>
+    </collision>
+    <collision name="rm_calf_collision_calf_0_6">
+      <origin xyz="0 0 0" rpy="3.14159265359 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_06.stl" />
+      </geometry>
+    </collision>
+    <collision name="rm_calf_collision_calf_0_7">
+      <origin xyz="0 0 0" rpy="3.14159265359 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_07.stl" />
+      </geometry>
+    </collision>
+    <collision name="rm_calf_collision_calf_0_8">
+      <origin xyz="0 0 0" rpy="3.14159265359 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_08.stl" />
+      </geometry>
+    </collision>
+    <collision name="rm_calf_collision_calf_0_9">
+      <origin xyz="0 0 0" rpy="3.14159265359 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_09.stl" />
+      </geometry>
+    </collision>
+    <collision name="rm_calf_collision_calf_0_10">
+      <origin xyz="0 0 0" rpy="3.14159265359 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_10.stl" />
+      </geometry>
+    </collision>
+    <collision name="rm_calf_collision_calf_0_11">
+      <origin xyz="0 0 0" rpy="3.14159265359 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_11.stl" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="-5.78200224549e-10 -0.11759363335 -1.7184963266e-09" rpy="0 0 0" />
+      <mass value="0.392725648044" />
+      <inertia ixx="0.0049072872579" ixy="2.48196195923e-11" ixz="3.43940218777e-11" iyy="4.06006647528e-05" iyz="5.49733075793e-11" izz="0.00488861559479" />
+    </inertial>
+  </link>
+  <link name="rm_foot">
+    <visual name="rm_foot_visual_foot_0">
+      <origin xyz="0 0 0" rpy="-3.13014556336 -0.261580722794 2.40687389668" />
+      <geometry>
+        <mesh filename="meshes/foot.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="rm_foot_collision_foot_0">
+      <origin xyz="0 0 0" rpy="-3.13014556336 -0.261580722794 2.40687389668" />
+      <geometry>
+        <sphere radius=".02" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="2.42477120083e-19 1.01911901975e-19 4.16873267633e-19" rpy="0 0 0" />
+      <mass value="0.0904778684234" />
+      <inertia ixx="1.44764589477e-05" ixy="8.04381021158e-22" ixz="1.47561819706e-21" iyy="1.44764589477e-05" iyz="-2.05324974919e-21" izz="1.44764589477e-05" />
+    </inertial>
+  </link>
+  <joint name="rm_hip_joint" type="continuous">
+    <parent link="base_link" />
+    <child link="rm_hip" />
+    <origin xyz="3.46944695195e-17 -0.23 -5.20417042793e-18" rpy="0 0 0" />
+    <axis xyz="0 0 1" />
+  </joint>
+  <joint name="rm_thigh_joint" type="continuous">
+    <parent link="rm_hip" />
+    <child link="rm_thigh" />
+    <origin xyz="-3.91433453324e-17 0 0.065" rpy="0 0 0" />
+    <axis xyz="-1 0 0" />
+  </joint>
+  <joint name="rm_calf_joint" type="continuous">
+    <parent link="rm_thigh" />
+    <child link="rm_calf" />
+    <origin xyz="2.34150740036e-17 -0.25 -4.16333634234e-17" rpy="0 0 0" />
+    <axis xyz="-1 0 0" />
+  </joint>
+  <joint name="rm_foot_fixed" type="fixed">
+    <parent link="rm_calf" />
+    <child link="rm_foot" />
+    <origin xyz="6.35290431372e-17 -0.35 -2.77555756156e-17" rpy="0 0 0" />
+  </joint>
+  <link name="rf_hip">
+    <visual name="rf_hip_visual_motor_0">
+      <origin xyz="0.04 2.77555756156e-17 0.065" rpy="3.14159265359 0.317659832958 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/motor.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="rf_hip_collision_motor_0">
+      <origin xyz="0.07 2.85882428841e-17 0.065" rpy="1.57079632679 0.317659832958 1.57079632679" />
+      <geometry>
+        <cylinder radius=".04" length=".06" />
+      </geometry>
+    </collision>
+    <visual name="rf_hip_visual_hip_bracket_1">
+      <origin xyz="0.04 0 0.01" rpy="1.57079632679 0 3.14159265359" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="rf_hip_collision_hip_bracket_1_0">
+      <origin xyz="0.04 0 0.01" rpy="1.57079632679 0 3.14159265359" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_00.stl" />
+      </geometry>
+    </collision>
+    <collision name="rf_hip_collision_hip_bracket_1_1">
+      <origin xyz="0.04 0 0.01" rpy="1.57079632679 0 3.14159265359" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_03.stl" />
+      </geometry>
+    </collision>
+    <collision name="rf_hip_collision_hip_bracket_1_2">
+      <origin xyz="0.04 0 0.01" rpy="1.57079632679 0 3.14159265359" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_04.stl" />
+      </geometry>
+    </collision>
+    <collision name="rf_hip_collision_hip_bracket_1_3">
+      <origin xyz="0.04 0 0.01" rpy="1.57079632679 0 3.14159265359" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_05.stl" />
+      </geometry>
+    </collision>
+    <collision name="rf_hip_collision_hip_bracket_1_4">
+      <origin xyz="0.04 0 0.01" rpy="1.57079632679 0 3.14159265359" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_06.stl" />
+      </geometry>
+    </collision>
+    <collision name="rf_hip_collision_hip_bracket_1_5">
+      <origin xyz="0.04 0 0.01" rpy="1.57079632679 0 3.14159265359" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_08.stl" />
+      </geometry>
+    </collision>
+    <collision name="rf_hip_collision_hip_bracket_1_6">
+      <origin xyz="0.04 0 0.01" rpy="1.57079632679 0 3.14159265359" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_11.stl" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0.0572088508809 1.89827965978e-17 0.0530757428629" rpy="0 0 0" />
+      <mass value="1.12641038264" />
+      <inertia ixx="0.0016045964461" ixy="-3.32889750341e-19" ixz="-0.00056030512767" iyy="0.00195118534206" iyz="-3.24184989763e-19" izz="0.00150626303758" />
+    </inertial>
+  </link>
+  <link name="rf_thigh">
+    <visual name="rf_thigh_visual_thigh_bracket_0">
+      <origin xyz="0 0 0" rpy="1.57079632679 0 -1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="rf_thigh_collision_thigh_bracket_0_0">
+      <origin xyz="0 0 0" rpy="1.57079632679 0 -1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_01.stl" />
+      </geometry>
+    </collision>
+    <collision name="rf_thigh_collision_thigh_bracket_0_1">
+      <origin xyz="0 0 0" rpy="1.57079632679 0 -1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_03.stl" />
+      </geometry>
+    </collision>
+    <collision name="rf_thigh_collision_thigh_bracket_0_2">
+      <origin xyz="0 0 0" rpy="1.57079632679 0 -1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_05.stl" />
+      </geometry>
+    </collision>
+    <collision name="rf_thigh_collision_thigh_bracket_0_3">
+      <origin xyz="0 0 0" rpy="1.57079632679 0 -1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_06.stl" />
+      </geometry>
+    </collision>
+    <collision name="rf_thigh_collision_thigh_bracket_0_4">
+      <origin xyz="0 0 0" rpy="1.57079632679 0 -1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_07.stl" />
+      </geometry>
+    </collision>
+    <collision name="rf_thigh_collision_thigh_bracket_0_5">
+      <origin xyz="0 0 0" rpy="1.57079632679 0 -1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_08.stl" />
+      </geometry>
+    </collision>
+    <collision name="rf_thigh_collision_thigh_bracket_0_6">
+      <origin xyz="0 0 0" rpy="1.57079632679 0 -1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_09.stl" />
+      </geometry>
+    </collision>
+    <collision name="rf_thigh_collision_thigh_bracket_0_7">
+      <origin xyz="0 0 0" rpy="1.57079632679 0 -1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_10.stl" />
+      </geometry>
+    </collision>
+    <collision name="rf_thigh_collision_thigh_bracket_0_8">
+      <origin xyz="0 0 0" rpy="1.57079632679 0 -1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_11.stl" />
+      </geometry>
+    </collision>
+    <visual name="rf_thigh_visual_motor_1">
+      <origin xyz="-0.1 -2.77555756156e-17 2.77555756156e-17" rpy="0 0.609947696167 -1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/motor.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="rf_thigh_collision_motor_1">
+      <origin xyz="-0.07 -2.68078486349e-17 2.6378135163e-17" rpy="-1.57079632679 0.609947696167 -1.57079632679" />
+      <geometry>
+        <cylinder radius=".04" length=".06" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="-0.0117933271159 -0.0676743414848 1.8837495092e-17" rpy="0 0 0" />
+      <mass value="4.83333130222" />
+      <inertia ixx="0.0354739808822" ixy="0.00385750900364" ixz="4.63955513174e-19" iyy="0.00763111792112" iyz="5.82616165761e-18" izz="0.0389363463844" />
+    </inertial>
+  </link>
+  <link name="rf_calf">
+    <visual name="rf_calf_visual_calf_0">
+      <origin xyz="0 0 0" rpy="3.14159265359 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="rf_calf_collision_calf_0_0">
+      <origin xyz="0 0 0" rpy="3.14159265359 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_00.stl" />
+      </geometry>
+    </collision>
+    <collision name="rf_calf_collision_calf_0_1">
+      <origin xyz="0 0 0" rpy="3.14159265359 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_01.stl" />
+      </geometry>
+    </collision>
+    <collision name="rf_calf_collision_calf_0_2">
+      <origin xyz="0 0 0" rpy="3.14159265359 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_02.stl" />
+      </geometry>
+    </collision>
+    <collision name="rf_calf_collision_calf_0_3">
+      <origin xyz="0 0 0" rpy="3.14159265359 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_03.stl" />
+      </geometry>
+    </collision>
+    <collision name="rf_calf_collision_calf_0_4">
+      <origin xyz="0 0 0" rpy="3.14159265359 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_04.stl" />
+      </geometry>
+    </collision>
+    <collision name="rf_calf_collision_calf_0_5">
+      <origin xyz="0 0 0" rpy="3.14159265359 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_05.stl" />
+      </geometry>
+    </collision>
+    <collision name="rf_calf_collision_calf_0_6">
+      <origin xyz="0 0 0" rpy="3.14159265359 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_06.stl" />
+      </geometry>
+    </collision>
+    <collision name="rf_calf_collision_calf_0_7">
+      <origin xyz="0 0 0" rpy="3.14159265359 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_07.stl" />
+      </geometry>
+    </collision>
+    <collision name="rf_calf_collision_calf_0_8">
+      <origin xyz="0 0 0" rpy="3.14159265359 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_08.stl" />
+      </geometry>
+    </collision>
+    <collision name="rf_calf_collision_calf_0_9">
+      <origin xyz="0 0 0" rpy="3.14159265359 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_09.stl" />
+      </geometry>
+    </collision>
+    <collision name="rf_calf_collision_calf_0_10">
+      <origin xyz="0 0 0" rpy="3.14159265359 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_10.stl" />
+      </geometry>
+    </collision>
+    <collision name="rf_calf_collision_calf_0_11">
+      <origin xyz="0 0 0" rpy="3.14159265359 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_11.stl" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="-5.78200227813e-10 -0.11759363335 -1.7184963266e-09" rpy="0 0 0" />
+      <mass value="0.392725648044" />
+      <inertia ixx="0.0049072872579" ixy="2.48196194573e-11" ixz="3.43940218777e-11" iyy="4.06006647528e-05" iyz="5.49733075793e-11" izz="0.00488861559479" />
+    </inertial>
+  </link>
+  <link name="rf_foot">
+    <visual name="rf_foot_visual_foot_0">
+      <origin xyz="0 0 0" rpy="-3.13014556336 -0.261580722794 2.40687389668" />
+      <geometry>
+        <mesh filename="meshes/foot.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="rf_foot_collision_foot_0">
+      <origin xyz="0 0 0" rpy="-3.13014556336 -0.261580722794 2.40687389668" />
+      <geometry>
+        <sphere radius=".02" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="2.42477120083e-19 1.01911901975e-19 4.16873267633e-19" rpy="0 0 0" />
+      <mass value="0.0904778684234" />
+      <inertia ixx="1.44764589477e-05" ixy="8.04381021158e-22" ixz="1.47561819706e-21" iyy="1.44764589477e-05" iyz="-2.05324974919e-21" izz="1.44764589477e-05" />
+    </inertial>
+  </link>
+  <joint name="rf_hip_joint" type="continuous">
+    <parent link="base_link" />
+    <child link="rf_hip" />
+    <origin xyz="0.23 -0.23 -6.93889390391e-18" rpy="0 0 0" />
+    <axis xyz="0 0 1" />
+  </joint>
+  <joint name="rf_thigh_joint" type="continuous">
+    <parent link="rf_hip" />
+    <child link="rf_thigh" />
+    <origin xyz="-5.55111512313e-17 0 0.065" rpy="0 0 0" />
+    <axis xyz="-1 0 0" />
+  </joint>
+  <joint name="rf_calf_joint" type="continuous">
+    <parent link="rf_thigh" />
+    <child link="rf_calf" />
+    <origin xyz="0 -0.25 -4.16333634234e-17" rpy="0 0 0" />
+    <axis xyz="-1 0 0" />
+  </joint>
+  <joint name="rf_foot_fixed" type="fixed">
+    <parent link="rf_calf" />
+    <child link="rf_foot" />
+    <origin xyz="5.55111512313e-17 -0.35 -2.77555756156e-17" rpy="0 0 0" />
+  </joint>
+  <link name="lf_hip">
+    <visual name="lf_hip_visual_motor_0">
+      <origin xyz="-0.04 -2.77555756156e-17 0.065" rpy="-3.14159265359 0.317659832958 -1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/motor.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="lf_hip_collision_motor_0">
+      <origin xyz="-0.07 -2.76514922071e-17 0.065" rpy="1.57079632679 0.317659832958 -1.57079632679" />
+      <geometry>
+        <cylinder radius=".04" length=".06" />
+      </geometry>
+    </collision>
+    <visual name="lf_hip_visual_hip_bracket_1">
+      <origin xyz="-0.04 0 0.01" rpy="1.57079632679 0 0" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="lf_hip_collision_hip_bracket_1_0">
+      <origin xyz="-0.04 0 0.01" rpy="1.57079632679 0 0" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_00.stl" />
+      </geometry>
+    </collision>
+    <collision name="lf_hip_collision_hip_bracket_1_1">
+      <origin xyz="-0.04 0 0.01" rpy="1.57079632679 0 0" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_03.stl" />
+      </geometry>
+    </collision>
+    <collision name="lf_hip_collision_hip_bracket_1_2">
+      <origin xyz="-0.04 0 0.01" rpy="1.57079632679 0 0" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_04.stl" />
+      </geometry>
+    </collision>
+    <collision name="lf_hip_collision_hip_bracket_1_3">
+      <origin xyz="-0.04 0 0.01" rpy="1.57079632679 0 0" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_05.stl" />
+      </geometry>
+    </collision>
+    <collision name="lf_hip_collision_hip_bracket_1_4">
+      <origin xyz="-0.04 0 0.01" rpy="1.57079632679 0 0" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_06.stl" />
+      </geometry>
+    </collision>
+    <collision name="lf_hip_collision_hip_bracket_1_5">
+      <origin xyz="-0.04 0 0.01" rpy="1.57079632679 0 0" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_08.stl" />
+      </geometry>
+    </collision>
+    <collision name="lf_hip_collision_hip_bracket_1_6">
+      <origin xyz="-0.04 0 0.01" rpy="1.57079632679 0 0" />
+      <geometry>
+        <mesh filename="meshes/hip_bracket_collision_11.stl" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="-0.0572088508809 -1.91783105415e-17 0.0530757428629" rpy="0 0 0" />
+      <mass value="1.12641038264" />
+      <inertia ixx="0.0016045964461" ixy="-3.1928970672e-19" ixz="0.00056030512767" iyy="0.00195118534206" iyz="2.71542334782e-19" izz="0.00150626303758" />
+    </inertial>
+  </link>
+  <link name="lf_thigh">
+    <visual name="lf_thigh_visual_thigh_bracket_0">
+      <origin xyz="0 0 0" rpy="1.57079632679 -4.4408920985e-16 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="lf_thigh_collision_thigh_bracket_0_0">
+      <origin xyz="0 0 0" rpy="1.57079632679 -4.4408920985e-16 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_01.stl" />
+      </geometry>
+    </collision>
+    <collision name="lf_thigh_collision_thigh_bracket_0_1">
+      <origin xyz="0 0 0" rpy="1.57079632679 -4.4408920985e-16 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_03.stl" />
+      </geometry>
+    </collision>
+    <collision name="lf_thigh_collision_thigh_bracket_0_2">
+      <origin xyz="0 0 0" rpy="1.57079632679 -4.4408920985e-16 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_05.stl" />
+      </geometry>
+    </collision>
+    <collision name="lf_thigh_collision_thigh_bracket_0_3">
+      <origin xyz="0 0 0" rpy="1.57079632679 -4.4408920985e-16 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_06.stl" />
+      </geometry>
+    </collision>
+    <collision name="lf_thigh_collision_thigh_bracket_0_4">
+      <origin xyz="0 0 0" rpy="1.57079632679 -4.4408920985e-16 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_07.stl" />
+      </geometry>
+    </collision>
+    <collision name="lf_thigh_collision_thigh_bracket_0_5">
+      <origin xyz="0 0 0" rpy="1.57079632679 -4.4408920985e-16 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_08.stl" />
+      </geometry>
+    </collision>
+    <collision name="lf_thigh_collision_thigh_bracket_0_6">
+      <origin xyz="0 0 0" rpy="1.57079632679 -4.4408920985e-16 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_09.stl" />
+      </geometry>
+    </collision>
+    <collision name="lf_thigh_collision_thigh_bracket_0_7">
+      <origin xyz="0 0 0" rpy="1.57079632679 -4.4408920985e-16 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_10.stl" />
+      </geometry>
+    </collision>
+    <collision name="lf_thigh_collision_thigh_bracket_0_8">
+      <origin xyz="0 0 0" rpy="1.57079632679 -4.4408920985e-16 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/thigh_bracket_collision_11.stl" />
+      </geometry>
+    </collision>
+    <visual name="lf_thigh_visual_motor_1">
+      <origin xyz="0.1 2.77555756156e-17 2.77555756156e-17" rpy="0 0.609947696167 1.57079632679" />
+      <geometry>
+        <mesh filename="meshes/motor.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="lf_thigh_collision_motor_1">
+      <origin xyz="0.07 2.77445993119e-17 2.58708938432e-17" rpy="-1.57079632679 0.609947696167 1.57079632679" />
+      <geometry>
+        <cylinder radius=".04" length=".06" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0.0117933271159 0.0676743414848 4.23864355575e-17" rpy="0 0 0" />
+      <mass value="4.83333130222" />
+      <inertia ixx="0.0354739808822" ixy="0.00385750900364" ixz="9.04828666866e-19" iyy="0.00763111792112" iyz="-1.50689591123e-17" izz="0.0389363463844" />
+    </inertial>
+  </link>
+  <link name="lf_calf">
+    <visual name="lf_calf_visual_calf_0">
+      <origin xyz="0 0 0" rpy="-2.28197939674e-17 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="lf_calf_collision_calf_0_0">
+      <origin xyz="0 0 0" rpy="-2.28197939674e-17 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_00.stl" />
+      </geometry>
+    </collision>
+    <collision name="lf_calf_collision_calf_0_1">
+      <origin xyz="0 0 0" rpy="-2.28197939674e-17 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_01.stl" />
+      </geometry>
+    </collision>
+    <collision name="lf_calf_collision_calf_0_2">
+      <origin xyz="0 0 0" rpy="-2.28197939674e-17 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_02.stl" />
+      </geometry>
+    </collision>
+    <collision name="lf_calf_collision_calf_0_3">
+      <origin xyz="0 0 0" rpy="-2.28197939674e-17 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_03.stl" />
+      </geometry>
+    </collision>
+    <collision name="lf_calf_collision_calf_0_4">
+      <origin xyz="0 0 0" rpy="-2.28197939674e-17 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_04.stl" />
+      </geometry>
+    </collision>
+    <collision name="lf_calf_collision_calf_0_5">
+      <origin xyz="0 0 0" rpy="-2.28197939674e-17 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_05.stl" />
+      </geometry>
+    </collision>
+    <collision name="lf_calf_collision_calf_0_6">
+      <origin xyz="0 0 0" rpy="-2.28197939674e-17 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_06.stl" />
+      </geometry>
+    </collision>
+    <collision name="lf_calf_collision_calf_0_7">
+      <origin xyz="0 0 0" rpy="-2.28197939674e-17 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_07.stl" />
+      </geometry>
+    </collision>
+    <collision name="lf_calf_collision_calf_0_8">
+      <origin xyz="0 0 0" rpy="-2.28197939674e-17 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_08.stl" />
+      </geometry>
+    </collision>
+    <collision name="lf_calf_collision_calf_0_9">
+      <origin xyz="0 0 0" rpy="-2.28197939674e-17 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_09.stl" />
+      </geometry>
+    </collision>
+    <collision name="lf_calf_collision_calf_0_10">
+      <origin xyz="0 0 0" rpy="-2.28197939674e-17 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_10.stl" />
+      </geometry>
+    </collision>
+    <collision name="lf_calf_collision_calf_0_11">
+      <origin xyz="0 0 0" rpy="-2.28197939674e-17 1.57079632679 0" />
+      <geometry>
+        <mesh filename="meshes/calf_collision_11.stl" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="5.78200231485e-10 0.11759363335 -1.71849630061e-09" rpy="0 0 0" />
+      <mass value="0.392725648044" />
+      <inertia ixx="0.0049072872579" ixy="2.48196193053e-11" ixz="-3.43940218774e-11" iyy="4.06006647528e-05" iyz="-5.4973308651e-11" izz="0.00488861559479" />
+    </inertial>
+  </link>
+  <link name="lf_foot">
+    <visual name="lf_foot_visual_foot_0">
+      <origin xyz="0 0 0" rpy="-3.13014556336 -0.261580722794 -0.734718756908" />
+      <geometry>
+        <mesh filename="meshes/foot.stl" />
+      </geometry>
+      <material name="aluminum">
+        <color rgba="0.68 0.70 0.74 1" />
+      </material>
+    </visual>
+    <collision name="lf_foot_collision_foot_0">
+      <origin xyz="0 0 0" rpy="-3.13014556336 -0.261580722794 -0.734718756908" />
+      <geometry>
+        <sphere radius=".02" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="-2.42477120083e-19 -1.01911901975e-19 4.16873267633e-19" rpy="0 0 0" />
+      <mass value="0.0904778684234" />
+      <inertia ixx="1.44764589477e-05" ixy="1.44582856672e-21" ixz="-8.62516312641e-22" iyy="1.44764589477e-05" iyz="2.15772504049e-21" izz="1.44764589477e-05" />
+    </inertial>
+  </link>
+  <joint name="lf_hip_joint" type="continuous">
+    <parent link="base_link" />
+    <child link="lf_hip" />
+    <origin xyz="0.23 0.23 1.38777878078e-17" rpy="0 0 0" />
+    <axis xyz="0 0 1" />
+  </joint>
+  <joint name="lf_thigh_joint" type="continuous">
+    <parent link="lf_hip" />
+    <child link="lf_thigh" />
+    <origin xyz="2.77555756156e-17 0 0.065" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+  </joint>
+  <joint name="lf_calf_joint" type="continuous">
+    <parent link="lf_thigh" />
+    <child link="lf_calf" />
+    <origin xyz="0 0.25 0" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+  </joint>
+  <joint name="lf_foot_fixed" type="fixed">
+    <parent link="lf_calf" />
+    <child link="lf_foot" />
+    <origin xyz="-5.55111512313e-17 0.35 5.55111512313e-17" rpy="0 0 0" />
+  </joint>
+</robot>

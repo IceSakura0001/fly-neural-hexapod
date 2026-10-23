@@ -1,0 +1,60 @@
+name: hexapod-share-20261023
+services:
+  init-settings:
+    image: hexapod-neuro-share:20261023
+    pull_policy: never
+    network_mode: none
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    volumes:
+      - stance-settings:/app/data
+      - ./defaults:/defaults:ro
+    entrypoint: ["python", "-c"]
+    command:
+      - |
+        import json,pathlib
+        dest=pathlib.Path('/app/data/stance-settings.json')
+        source=pathlib.Path('/defaults/stance-settings.json')
+        settings=json.loads(source.read_text(encoding='utf-8-sig'))
+        if not dest.exists():
+            dest.write_text(json.dumps(settings),encoding='utf-8')
+            print('Initial stance installed from package.')
+        else:
+            print('Existing saved stance preserved.')
+    restart: "no"
+  console:
+    image: hexapod-neuro-share:20261023
+    pull_policy: never
+    depends_on:
+      init-settings:
+        condition: service_completed_successfully
+    ports:
+      - "127.0.0.1:${HEXAPOD_PORT:-8765}:8000"
+    init: true
+    restart: unless-stopped
+    cpus: ${HEXAPOD_CPUS:-2}
+    mem_limit: ${HEXAPOD_MEMORY:-4g}
+    read_only: true
+    tmpfs: ["/tmp:size=256m"]
+    security_opt: ["no-new-privileges:true"]
+    cap_drop: [ALL]
+    environment:
+      PYTHONUNBUFFERED: "1"
+      PYTHONDONTWRITEBYTECODE: "1"
+      STANCE_SETTINGS_PATH: /app/data/stance-settings.json
+    volumes:
+      - stance-settings:/app/data
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/health')"]
+      interval: 5s
+      timeout: 3s
+      retries: 48
+      start_period: 10s
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: "3"
+volumes:
+  stance-settings:

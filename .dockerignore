@@ -1,0 +1,10 @@
+frontend/node_modules
+frontend/src
+evidence
+**/__pycache__
+**/*.png
+**/*.pyc
+models/**/source
+models/**/rviz
+
+backups

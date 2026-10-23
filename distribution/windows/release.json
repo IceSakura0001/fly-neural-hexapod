@@ -1,0 +1,13 @@
+{
+  "version": "2026.10.23",
+  "date": "2026-10-23",
+  "platform": "linux/amd64",
+  "image_tag": "hexapod-neuro-share:20261023",
+  "image_id": "sha256:64a0d118d0158301ea0493d834fcbc329a5a347d92f91f3e5426815fd5db27c4",
+  "image_file": "runtime/image.tar",
+  "image_sha256": "b3d3502cffcee5d0496f277d1425523681fe9a03f4f5fe817d8983639c22d730",
+  "project": "hexapod-share-20261023",
+  "source": "Source and built browser application included under source/",
+  "data": "MaleCNS v1.0 subset; user NBS V5 model",
+  "scope": "Simulated DN/VNC activity with engineered gait layer; not a whole fly brain"
+}

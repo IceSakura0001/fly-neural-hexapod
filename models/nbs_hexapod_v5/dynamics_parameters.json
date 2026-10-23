@@ -1,0 +1,7 @@
+{
+  "status": "uniform_6061_density_per_user_request; no_joint_limits_or_actuator_ratings",
+  "density_kg_m3": 2700,
+  "part_mass_overrides_kg": {},
+  "joint_type": "continuous",
+  "set_limits": false
+}

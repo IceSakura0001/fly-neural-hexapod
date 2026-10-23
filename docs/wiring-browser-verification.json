@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "source": "Observed final rendered DOM and browser interactions",
+  "normal_window_ms": 22000,
+  "normal_motor_spikes": 157,
+  "normal_active_pools": 26,
+  "normal_applied_gate": 1,
+  "normal_input_route_levels": [
+    1,
+    0,
+    0,
+    0
+  ],
+  "motor_pool_nodes": 36,
+  "actuator_nodes": 18,
+  "frozen_window_ms": 13600,
+  "physics_continues_to_s": 23.1,
+  "frozen_line_animation": "paused",
+  "selected_pool": "lf_hip_positive",
+  "selected_body_ids": [
+    800061,
+    801173,
+    806923,
+    807281,
+    919509,
+    934091
+  ],
+  "bypass_motor_spikes": 0,
+  "bypass_active_motor_pools": 0,
+  "bypass_readout_enabled": false,
+  "bypass_dx_m": 0.159,
+  "browser_errors": [],
+  "screenshots": "neural-wiring-live.png"
+}

@@ -1,0 +1,99 @@
+{
+  "passed": true,
+  "health": {
+    "ok": true,
+    "model": "user_nbs_v5",
+    "sample": false,
+    "neural_connected": true,
+    "mode": "vnc",
+    "physics_time": 137.55999999992872,
+    "warnings": 0,
+    "fault": null
+  },
+  "dn_groups": 4,
+  "motor_pools": 36,
+  "joint_torques": 18,
+  "mesh_count": 6,
+  "forward_dx_m": 0.1654784701434131,
+  "live_mn_window": {
+    "end_ms": 3300.0,
+    "duration_ms": 100.0,
+    "dn_spikes": {
+      "forward": 139,
+      "backward": 0,
+      "left": 4,
+      "right": 0
+    },
+    "pool_spikes": {
+      "lf_hip_positive": 5,
+      "lf_hip_negative": 10,
+      "lf_thigh_positive": 0,
+      "lf_thigh_negative": 1,
+      "lf_calf_positive": 2,
+      "lf_calf_negative": 2,
+      "lm_hip_positive": 3,
+      "lm_hip_negative": 6,
+      "lm_thigh_positive": 13,
+      "lm_thigh_negative": 0,
+      "lm_calf_positive": 5,
+      "lm_calf_negative": 1,
+      "lr_hip_positive": 7,
+      "lr_hip_negative": 4,
+      "lr_thigh_positive": 0,
+      "lr_thigh_negative": 0,
+      "lr_calf_positive": 1,
+      "lr_calf_negative": 0,
+      "rf_hip_positive": 2,
+      "rf_hip_negative": 8,
+      "rf_thigh_positive": 0,
+      "rf_thigh_negative": 0,
+      "rf_calf_positive": 0,
+      "rf_calf_negative": 0,
+      "rm_hip_positive": 0,
+      "rm_hip_negative": 22,
+      "rm_thigh_positive": 2,
+      "rm_thigh_negative": 0,
+      "rm_calf_positive": 2,
+      "rm_calf_negative": 4,
+      "rr_hip_positive": 1,
+      "rr_hip_negative": 15,
+      "rr_thigh_positive": 4,
+      "rr_thigh_negative": 0,
+      "rr_calf_positive": 1,
+      "rr_calf_negative": 0
+    },
+    "mapped_mn_spikes": 121
+  },
+  "saved_angles": [
+    [
+      -75.91220509104804,
+      9.487705559625223,
+      -91.04710078173686
+    ],
+    [
+      -5.689223755568818e-15,
+      5.366961569978098,
+      -75.12481087233503
+    ],
+    [
+      76.41220509104804,
+      9.487705559625223,
+      -91.04710078173686
+    ],
+    [
+      75.91220509104804,
+      9.487705559625223,
+      -91.04710078173686
+    ],
+    [
+      5.689223755568818e-15,
+      5.366961569978098,
+      -75.12481087233503
+    ],
+    [
+      -76.41220509104804,
+      9.487705559625223,
+      -91.04710078173686
+    ]
+  ]
+}

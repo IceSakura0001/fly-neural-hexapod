@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "motor_pools": 36,
+  "dn_groups": 4,
+  "mapped_unique_motor_cells": 220,
+  "exact_count_delta_windows": 8,
+  "map_ids_match_connectome": true,
+  "reading_does_not_advance_neurons": true,
+  "reset_clears_highlights": true,
+  "cut_synapses_has_zero_motor_highlights": true,
+  "externally_stimulated_dn_can_still_fire": true,
+  "normal_window_motor_spikes": [
+    202,
+    207,
+    183,
+    146,
+    201,
+    246,
+    155,
+    105
+  ]
+}
